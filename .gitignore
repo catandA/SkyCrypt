@@ -70,3 +70,4 @@ devdata/*
 
 # generated metrics
 public/metrics.json
+/.idea/
