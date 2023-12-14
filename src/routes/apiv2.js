@@ -32,7 +32,7 @@ router.use(async (req, res, next) => {
     }
   }
 
-  req.cacheOnly = !req.apiKey;
+  req.cacheOnly = false;
   req.options = {
     cacheOnly: req.cacheOnly,
   };
